@@ -27,8 +27,11 @@ body{
    padding-top: 40px;}
 
 .headevento, .headfotos, .headcadastro, .headcontato{
-    color: #F6AB45;   
-    font-weight: bolder;}
+color: #F6AB45;   
+font-weight: bolder;}
+
+.headevento:hover, .headfotos:hover, .headcadastro:hover,.headcontato:hover{
+    color: #373125;}
 
 .headevento:after{
     content: "";

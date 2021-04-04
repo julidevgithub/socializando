@@ -85,10 +85,10 @@ h1:after{
 .header{
     position: relative;
 	padding-bottom: 0px;
-    height: 310px    }
+    height: 330px    }
 
 .logosocial{
-    width: 180px ;}
+    width: 210px ;}
 
 .header img{
     margin: 0px auto;}
@@ -117,7 +117,7 @@ h1:after{
 
 /*INDEX: INTRODUÇÃO*/ 	 
 .introducao{
-    height: 1300px;}
+    height: 1350px;}
 
 h1{
     font-size: 25px;
@@ -175,5 +175,10 @@ h1{
     
 .insta-ico{
     margin-left: 91px; }
+
+.turma{
+    padding: 0 30px 0 30px;}
+
+
 
 }
