@@ -1,0 +1,179 @@
+/*------------------Estilo para TELA GRANDE----------------------------*/
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+/*INDEX: INTRODUÇÃO*/
+.introducao{
+    height: 860px;}
+
+h1{
+    margin-top: 30px;}
+
+/*INDEX: INFORMAÇÕES*/
+.informacoes{
+    height: 1710px;} 
+
+/*INDEX: FOOTER*/
+.informacoes{
+    height: 1710px;} 
+
+.footer{
+    height: 180px;}
+
+.insta-ico{
+    margin-left: 95px; }
+
+}
+
+/*------------------Estilo para TELA MÉDIA----------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+/*INDEX: INTRODUÇÃO*/
+.introducao{
+    height: 850px;}
+
+h1{
+    font-size: 35px;
+    margin-top: 30px;}
+
+h1:after{
+    width: 565px;
+    margin: 8px auto 40px;}
+
+.sobre p{
+    font-size: 20px; }
+
+/*INDEX: INFORMAÇÕES*/
+.informacoes{
+    height: 1440px;} 
+
+.nina3ico,.nina4ico{
+    width: 30px;}
+
+.groupico{
+    width: 120px;}
+
+.amigos p{
+    font-size: 20px; }
+
+.logo-grande{
+    height: 300px;}
+
+.info{
+    margin-bottom: 60px;}
+
+.nina1{
+    margin-bottom: 90px;}
+    
+.turma p{
+    font-size: 20px;}
+
+/*INDEX: FOOTER*/
+.objetivo h3, .redes h3, .contato h3 {
+    font-size: 18px; }
+
+.objetivo p, .contato p{
+    font-size: 12px;}
+
+.insta-ico{
+    margin-left: 55px; }
+
+
+}
+/*------------------Estilo para TELA PEQUENA----------------------------*/
+@media only screen and (max-width: 767px) {
+/*INDEX: HEADER*/
+.header{
+    position: relative;
+	padding-bottom: 0px;
+    height: 310px    }
+
+.logosocial{
+    width: 180px ;}
+
+.header img{
+    margin: 0px auto;}
+
+.menu{
+    display: block;
+    padding-top: 10px;
+    padding-left: 30px; }
+
+.menu ul li{ 
+		width: 100px;
+		display: block;
+		float: left;
+        margin: 10px;
+        border: 3px solid #F6AB45;
+        padding: 6px;
+        text-align: center;
+        font-size: 18px;  }
+
+.headevento:after, .headcontato:after, .headfotos:after,.headcadastro:after{
+    display: none; }
+
+/*INDEX:FOTO INTRODUÇÃO*/
+.foto-introducao {
+    margin-top: 0px;}
+
+/*INDEX: INTRODUÇÃO*/ 	 
+.introducao{
+    height: 1300px;}
+
+h1{
+    font-size: 25px;
+    padding-top: 40px; }
+
+ h1:after{
+    width: 200px;
+    margin: 8px auto 40px;}
+
+.sobre p{
+    font-size: 18px;
+    line-height: 25px ; }
+
+.fotos2e3{
+    margin: 40px 0 20px;}
+
+/*INDEX: INfORMAÇÃO*/ 
+.informacoes{
+    height: 1770px;} 
+
+.logo-grande{
+    height: 280px;}
+
+.info{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;   }
+    
+.nina1ico, .nino1ico, .nino2ico, .nina2ico{
+    width: 70px;
+    display: block;
+    margin: 0 auto;}
+
+.nino1ico, .nina3ico, .nina4ico{
+    display: none;}
+
+.info{
+    margin-bottom: 25px;}
+
+.nina2ico{
+    margin-top: 40px;
+    margin-bottom: -30px;}
+
+/*INDEX: FOOTER*/ 
+.footer{
+    height: 380px;   }
+
+.objetivo h3, .redes h3, .contato h3 {
+    font-size: 18px; 
+    margin-top: 35px;  }
+
+.objetivo p, .contato p{
+    font-size: 12px;}
+    
+.insta-ico{
+    margin-left: 91px; }
+
+}
