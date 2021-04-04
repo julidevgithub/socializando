@@ -1,0 +1,218 @@
+/*CONFIGURAÇÃO GERAL*/
+img{display: block;
+    max-width: 100%;}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+/*HEAD*/
+.header{
+    position: fixed;/*fixar na parte superior*/
+    top: 0; /*posição 0 na parte superior*/
+    background-color:#4B8E85;
+    height: 115px;
+    width: 100%;
+    z-index: 10;} /*fixa o header na parte de cima na hora do scrow*/ 
+
+.logosocial{
+    height: 115px;}
+
+.header-menu {
+   text-align: right;
+   padding-top: 40px;}
+
+.header-menu ul li{
+    display:inline-block;
+    font-size: 20px;
+    padding-left: 50px;}
+
+.headevento, .headfotos, .headcadastro, .headcontato{
+    color: #F6AB45;   
+    font-weight: bolder;}
+
+.headevento:after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #F6AB45; 
+    margin: 8px auto;}
+
+.headfotos:after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #F6AB45; 
+    margin: 8px auto;}
+
+.headcadastro:after{
+    content: "";
+    display: block;
+    width: 81px;
+    height: 3px;
+    background-color: #F6AB45; 
+    margin: 8px auto;}
+
+.headcontato:after{
+    content: "";
+    display: block;
+    width: 71px;
+    height: 3px;
+    background-color: #F6AB45; 
+    margin: 8px auto;}
+
+/*INTRODUÇÃO*/
+.foto-introducao {
+    background: url(img/img1.jpg) center no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 296px;
+    display: block;
+    margin-top: 115px;}
+
+.introducao{
+    background-color: #F6AB45;
+    width: 100%;
+    height: 900px;}
+
+h1{
+    color: #373125;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;}
+
+h1:hover{
+    color:#4B8E85 ;
+}
+
+h1:after{
+    content: "";
+    display: block;
+    width: 648px;
+    height: 3px;
+    background-color: #373125; 
+    margin: 8px auto 40px;}
+
+.sobre p{
+    font-size: 25px;
+    line-height: 30px;}
+
+.final{
+    margin-bottom: 40px;}
+
+.fotos2e3{
+margin: 40px 0 40px;}
+
+/*INFORMAÇÕES*/
+.informacoes{
+    background-color: #4B8E85;
+    width: 100%;
+    height: 1540px;}
+
+.logo-grande{
+    height: 350px;
+    margin: 0px auto;
+    padding: 30px 0 20px;}
+
+.info{
+    margin-bottom: 70px;
+    font-size: 25px;
+    color: #373125;
+    display: block;}
+
+.nina1{
+    margin-top: 20px;
+    margin-bottom: 110px;}
+
+.nino1{
+    text-align: right;
+    float: right; }
+
+.nino2{
+    float: left;}
+
+.nina2{
+    text-align: right;
+    float: right; }
+
+.nina3{
+    float: left;}
+
+.nina4{
+    text-align: right;
+    float: right; }
+
+.nina3ico,.nina4ico{
+    width: 53px;}
+
+.groupico{
+    width: 180px;}
+
+.turma img{  /*para pegar o item, as vezes, tem q especicicar +++*/ 
+margin: 10px auto 0px;}
+
+.turma{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 50px 0 50px;}
+
+span{
+    color:#F6AB45;}
+
+/*FOTO RODAPÉ*/  
+.foto-rodape {
+    background: url(img/img4.jpg) center no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 290px;
+    display: block;}    
+    
+/*FOOTER*/ 
+.footer{
+    background-color: #F6AB45;
+    width: 100%;
+    height: 160px;}
+
+.objetivo h3, .redes h3, .contato h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    color:#373125 ;
+    text-align: center;
+    margin-top: 20px;}
+
+.objetivo h3:after,.redes h3:after,.contato h3:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #373125; 
+    margin: 8px auto;}
+
+.meet-ico{
+width: 70px;
+display: block;
+margin-left: 5px;}
+
+.insta-ico{
+    width: 45px;
+    display: block;
+    margin-left: 120px; 
+    padding-top: -220px; }
+
+.redes ul li{
+    display: inline-block ;}
+    
+.objetivo p, .contato p {
+    text-align: center;}
+
+/*COPYRIGHT*/ 
+.copyright{
+    background-color:#4B8E85 ;
+    width: 100%;
+    height: 35px;
+    padding: 10px 0 0 10px;
+    font-size: 10px;
+}

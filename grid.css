@@ -1,0 +1,91 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	padding: 0px ;
+	position: relative;
+}
+
+.container:after, .container:before {
+	content: " ";
+	display: table;
+}
+
+.container:after {
+	clear: both;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12 {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.grid-1 	{width: 75px;}   /* conta = 1140px / n. coluna 12 = 95px, X quantas colunas 1 - margim de 20px */
+.grid-2 	{width: 170px;}
+.grid-3		{width: 265px;}
+.grid-4		{width: 360px;}
+.grid-5 	{width: 455px;}
+.grid-6 	{width: 550px;}
+.grid-7 	{width: 645px;}
+.grid-8 	{width: 740px;}
+.grid-9 	{width: 835px;}
+.grid-10 	{width: 930px;}
+.grid-11 	{width: 1025px;}
+.grid-12 	{width: 1120px;}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+.container {
+	width: 972px;  /* -20px do min-width */
+}
+.grid-1		{width: 61px;}
+.grid-2		{width: 142px;}
+.grid-3		{width: 223px;}
+.grid-4		{width: 304px;}
+.grid-5		{width: 385px;}
+.grid-6		{width: 466px;}
+.grid-7		{width: 547px;}
+.grid-8		{width: 628px;}
+.grid-9		{width: 709px;}
+.grid-10	{width: 790px;}
+.grid-11	{width: 871px;}
+.grid-12	{width: 952px;}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container {
+		width: 744px;   /* era para ser 748, mas arredondei para 744px */
+}	
+	.grid-1		{width: 42px;}
+	.grid-2		{width: 104px;}
+	.grid-3		{width: 166px;}
+	.grid-4		{width: 228px;}
+	.grid-5		{width: 290px;}
+	.grid-6		{width: 352px;}
+	.grid-7		{width: 414px;}
+	.grid-8		{width: 476px;}
+	.grid-9		{width: 538px;}
+	.grid-10	{width: 600px;}
+	.grid-11	{width: 662px;}
+	.grid-12	{width: 724px;}	
+}
+
+
+@media only screen and (max-width: 767px) {
+.container {
+	width: 300px;
+}
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12 {
+	width: 300px;
+	margin: 0 0 20px 0;
+	float: none;
+}
+
+}
