@@ -5,6 +5,10 @@ img{display: block;
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 
+.menu .menu-ativo{
+    color: #373125;
+}
+
 /*HEADER*/
 .header{
     position:fixed; /*fixar na parte superior*/

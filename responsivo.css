@@ -29,7 +29,7 @@ h1{
 
 /*INDEX: INTRODUÇÃO*/
 .introducao{
-    height: 850px;}
+    height: 900px;}
 
 h1{
     font-size: 35px;
@@ -44,7 +44,7 @@ h1:after{
 
 /*INDEX: INFORMAÇÕES*/
 .informacoes{
-    height: 1440px;} 
+    height: 1550px;} 
 
 .nina3ico,.nina4ico{
     width: 30px;}
@@ -76,6 +76,9 @@ h1:after{
 
 .insta-ico{
     margin-left: 55px; }
+
+    .footer{
+        height: 190px;}
 
 
 }
@@ -136,7 +139,7 @@ h1{
 
 /*INDEX: INfORMAÇÃO*/ 
 .informacoes{
-    height: 1770px;} 
+    height: 1800px;} 
 
 .logo-grande{
     height: 280px;}
@@ -164,7 +167,7 @@ h1{
 
 /*INDEX: FOOTER*/ 
 .footer{
-    height: 450px;   }
+    height: 400px;   }
 
 .objetivo h3, .redes h3, .contato h3 {
     font-size: 18px; 
