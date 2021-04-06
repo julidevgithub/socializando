@@ -13,7 +13,7 @@
     height: 310px;}
 
 .titulo-momento{
-    margin: 50px auto 10px;}
+    margin: 40px auto 10px;}
 
 .titulo-momento:after{
     width: 435px;  }
@@ -32,4 +32,6 @@
     
 .pic-foto img{
     margin-bottom: 60px;}
+
+
 

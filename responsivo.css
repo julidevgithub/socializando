@@ -10,17 +10,21 @@ h1{
 
 /*INDEX: INFORMAÇÕES*/
 .informacoes{
-    height: 1710px;} 
+    height: 1790px;} 
 
 /*INDEX: FOOTER*/
 .informacoes{
-    height: 1710px;} 
+    height: 1730px;} 
 
 .footer{
     height: 180px;}
 
 .insta-ico{
     margin-left: 95px; }
+
+
+ 
+
 
 }
 
@@ -77,8 +81,12 @@ h1:after{
 .insta-ico{
     margin-left: 55px; }
 
-    .footer{
-        height: 190px;}
+.footer{
+    height: 190px;}
+
+/*FOTOS: PICS*/
+.pics{
+    height: 1250px ;  }
 
 
 }
@@ -139,7 +147,7 @@ h1{
 
 /*INDEX: INfORMAÇÃO*/ 
 .informacoes{
-    height: 1870px;} 
+    height: 1860px;} 
 
 .logo-grande{
     height: 280px;}
@@ -167,7 +175,7 @@ h1{
 
 /*INDEX: FOOTER*/ 
 .footer{
-    height: 380px;   }
+    height: 375px;   }
 
 .objetivo h3, .redes h3, .contato h3 {
     font-size: 18px; 
@@ -181,6 +189,28 @@ h1{
 
 .turma{
     padding: 0 30px 0 30px;}
+
+/*FOTOS: FOTO INICIO*/ 
+.foto-01 {
+    margin-top: 0px;} 
+
+.titulo-momento{
+    margin: 10px auto 10px;}
+
+.titulo-momento:after{
+    width: 270px;  }
+
+.quote-foto p{
+    font-size: 20px;   }
+
+.pics{
+    height: 1920px ;  }
+
+.pic-foto img{
+    margin-bottom: 25px;}
+
+.pic-foto .ultima{
+    margin-bottom: 60px;}
 
 
 
