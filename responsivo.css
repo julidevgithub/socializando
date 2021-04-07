@@ -194,11 +194,14 @@ h1{
 .foto-01 {
     margin-top: 0px;} 
 
+.momento{
+    height: 350px;}
+
 .titulo-momento{
-    margin: 10px auto 10px;}
+    margin: 0px auto 10px;}
 
 .titulo-momento:after{
-    width: 270px;  }
+    width: 200px;  }
 
 .quote-foto p{
     font-size: 20px;   }
@@ -212,6 +215,23 @@ h1{
 .pic-foto .ultima{
     margin-bottom: 60px;}
 
+/*EVENTOS*/ 
+.evento-01 {
+    margin-top: 0px;}
+
+.tabela{
+    height: 17000px;  }
+
+.rTable tbody td{
+    display:inline-flexbox; 
+    flex-direction:column }
+
+.rTable th , .rTable td{
+    padding: 10px 5px;
+    font-size: 15px;}
+
+.titulo-evento:after{
+    width: 200px;  }
 
 
 }

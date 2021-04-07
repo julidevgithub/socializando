@@ -1,4 +1,5 @@
 /*CONFIGURAÇÃO GERAL*/
+
 .evento-01 {
     background: url(img/pic1.jpg) center no-repeat;
     background-size: cover;
@@ -6,3 +7,38 @@
     height: 150px;
     display: block;
     margin-top: 115px;}
+
+.eventos{
+    background-color: #F6AB45;
+    width: 100%;
+    height: 300px;}
+
+.titulo-evento:after{
+    width: 545px;  }
+
+.tabela{
+    background-color:#4B8E85 ;
+    width: 100%;
+    height: 6680px;
+    padding-top: 50px;}
+
+.rTable{
+    width: 100%;
+    text-align: center;
+    color:#373125}
+
+.rTable thead{
+    background:#373125; 
+    font-weight: bold; 
+    color:white;
+    text-transform: uppercase;}
+
+.rTable tbody tr:nth-child(1n){
+    background:  #F6AB45;}
+
+.rTable tbody tr:nth-child(2n){
+    background:  #4B8E85;}
+
+.rTable th , .rTable td{
+    padding: 5px 15px 5px ;}
+
