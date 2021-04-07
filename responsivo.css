@@ -34,7 +34,7 @@ h1{
 
 /*INDEX: INTRODUÇÃO*/
 .introducao{
-    height: 900px;}
+    height: 920px;}
 
 h1{
     font-size: 35px;
@@ -49,7 +49,7 @@ h1:after{
 
 /*INDEX: INFORMAÇÕES*/
 .informacoes{
-    height: 1550px;} 
+    height: 1670px;} 
 
 .nina3ico,.nina4ico{
     width: 30px;}
@@ -73,6 +73,9 @@ h1:after{
     font-size: 20px;}
 
 /*INDEX: FOOTER*/
+.footer{
+   height: 230px;}
+
 .objetivo h3, .redes h3, .contato h3 {
     font-size: 18px; }
 
@@ -82,17 +85,18 @@ h1:after{
 .insta-ico{
     margin-left: 55px; }
 
-.footer{
-    height: 190px;}
-
 /*FOTOS: PICS*/
+.momento{
+
+    height: 330px;}
+
 .pics{
     height: 1250px ;  }
 
 
 /*EVENTOS*/
 .tabela{
-    height: 10700px;  }
+    height: 11000px;  }
 
 
 }
@@ -213,7 +217,7 @@ h1{
     font-size: 20px;   }
 
 .pics{
-    height: 1920px ;  }
+    height: 1910px ;  }
 
 .pic-foto img{
     margin-bottom: 25px;}
@@ -226,7 +230,7 @@ h1{
     margin-top: 0px;}
 
 .tabela{
-    height: 20250px;  }
+    height: 20550px;  }
 
 .rTable thead{display:none;}
 
