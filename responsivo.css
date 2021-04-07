@@ -3,25 +3,25 @@
 
 /*INDEX: INTRODUÇÃO*/
 .introducao{
-    height: 940px;}
+    height: 960px;}
 
 h1{
     margin-top: 30px;}
 
 /*INDEX: INFORMAÇÕES*/
 .informacoes{
-    height: 2800px;} 
+    height: 3800px;} 
 
 /*INDEX: FOOTER*/
 .footer{
-    height: 270px;}
+    height: 290px;}
 
 .insta-ico{
     margin-left: 95px; }
 
 /*EVENTOS*/
 .tabela{
-    height: 9200px;  }
+    height: 9800px;  }
 
 
 }
@@ -46,7 +46,7 @@ h1:after{
 
 /*INDEX: INFORMAÇÕES*/
 .informacoes{
-    height: 1840px;} 
+    height: 1760px;} 
 
 .nina3ico,.nina4ico{
     width: 30px;}
@@ -92,7 +92,7 @@ h1:after{
 
 /*EVENTOS*/
 .tabela{
-    height: 11500px;  }
+    height: 12000px;  }
 
 
 }
@@ -235,13 +235,12 @@ h1{
     flex-direction:column }
 
 .rTable th , .rTable td{
-    padding: 5px ;
-    font-size: 15px;
-    }
+    padding-top: 2px;
+    font-size: 15px;   }
 
 .titulo-evento:after{
     width: 200px;  }
 
- 
+   
   
 }
