@@ -12,6 +12,9 @@ h1{
 .informacoes{
     height: 3800px;} 
 
+.groupico{
+    display: block;}
+
 /*INDEX: FOOTER*/
 .footer{
     height: 290px;}
@@ -21,7 +24,8 @@ h1{
 
 /*EVENTOS*/
 .tabela{
-    height: 9800px;  }
+    height: 10000px;
+    display: block;  }
 
 
 }
