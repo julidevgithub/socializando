@@ -37,8 +37,9 @@
     background:  #F6AB45;}
 
 .rTable tbody tr:nth-child(2n){
-    background: #4B8E85;}
+    background: #4B8E85;    }
 
 .rTable th , .rTable td{
-    padding: 10px ;}
+    padding-bottom: 20px ;}
+    
 
