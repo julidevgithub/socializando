@@ -19,7 +19,7 @@
 .tabela{
     background-color:#4B8E85 ;
     width: 100%;
-    height: 6680px;
+    height: 8880px;
     padding-top: 50px;}
 
 .rTable{
@@ -37,8 +37,8 @@
     background:  #F6AB45;}
 
 .rTable tbody tr:nth-child(2n){
-    background:  #4B8E85;}
+    background: #4B8E85;}
 
 .rTable th , .rTable td{
-    padding: 5px 15px 5px ;}
+    padding: 10px ;}
 

@@ -22,8 +22,9 @@ h1{
 .insta-ico{
     margin-left: 95px; }
 
-
- 
+/*EVENTOS*/
+    .tabela{
+        height: 9060px;  }
 
 
 }
@@ -87,6 +88,11 @@ h1:after{
 /*FOTOS: PICS*/
 .pics{
     height: 1250px ;  }
+
+
+/*EVENTOS*/
+.tabela{
+    height: 10700px;  }
 
 
 }
@@ -220,18 +226,21 @@ h1{
     margin-top: 0px;}
 
 .tabela{
-    height: 17000px;  }
+    height: 20250px;  }
+
+.rTable thead{display:none;}
 
 .rTable tbody td{
-    display:inline-flexbox; 
+    display:block; 
     flex-direction:column }
 
 .rTable th , .rTable td{
-    padding: 10px 5px;
-    font-size: 15px;}
+    padding: 5px ;
+    font-size: 15px;
+    }
 
 .titulo-evento:after{
     width: 200px;  }
 
-
+  
 }
