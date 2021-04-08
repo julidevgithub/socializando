@@ -1,16 +1,16 @@
 /*------------------Estilo para TELA GRANDE----------------------------*/
 @media only screen and (min-width: 992px) and (max-width: 1200px){
 
-/*INDEX: INTRODUÇÃO*/
+/*INDEX: INTRODUÇÃO - AMARELO -  TELA GRANDE*/
 .introducao{
-    height: 970px;}
+    height: 870px;}
 
 h1{
     margin-top: 40px;}
 
-/*INDEX: INFORMAÇÕES*/
+/*INDEX: INFORMAÇÕES - VERDE - TELA GRANDE*/
 .informacoes{
-    height: 1800px;
+    height: 1600px;
     display: block;} 
 
 .turma{
@@ -21,7 +21,7 @@ h1{
 .amigos p{
     font-size: 23px; }
 
-/*INDEX: FOOTER*/
+/*INDEX: FOOTER - AMARELO -  TELA GRANDE*/
 .footer{
     height: 160px;
     display: block;
@@ -30,10 +30,15 @@ h1{
 .insta-ico{
     margin-left: 95px; }
 
-/*EVENTOS*/
+/*EVENTOS  - VERDE -  TELA GRANDE*/
 .tabela{
-    height: 11000px;
+    height: 7160px;
     display: block;      }
+
+/*FOTOS/PICS  - VERDE -  TELA GRANDE*/
+.pics{
+    height: 1500px ;  }
+
 
 
 }
@@ -41,7 +46,7 @@ h1{
 /*------------------Estilo para TELA MÉDIA----------------------------*/
 @media only screen and (min-width: 768px) and (max-width: 991px){
 
-/*INDEX: INTRODUÇÃO*/
+/*INDEX: INTRODUÇÃO - AMARELO - TELA MÉDIA*/
 .introducao{
     height: 940px;}
 
@@ -56,9 +61,18 @@ h1:after{
 .sobre p{
     font-size: 20px; }
 
-/*INDEX: INFORMAÇÕES*/
+/*INDEX: INFORMAÇÕES - VERDE - TELA MÉDIA*/
 .informacoes{
     height: 1650px;} 
+
+.logo-grande{
+    height: 300px;}
+
+.amigos p{
+    font-size: 20px; }
+
+.nina1{
+    margin-bottom: 90px;}      
 
 .nina3ico,.nina4ico{
     width: 30px;}
@@ -66,22 +80,13 @@ h1:after{
 .groupico{
     width: 120px;}
 
-.amigos p{
-    font-size: 20px; }
-
-.logo-grande{
-    height: 300px;}
+.turma p{
+    font-size: 20px;}
 
 .info{
     margin-bottom: 60px;}
 
-.nina1{
-    margin-bottom: 90px;}
-    
-.turma p{
-    font-size: 20px;}
-
-/*INDEX: FOOTER*/
+/*INDEX: FOOTER - AMARELO - TELA MÉDIA*/
 .footer{
    height: 200px;}
 
@@ -94,20 +99,13 @@ h1:after{
 .insta-ico{
     margin-left: 55px; }
 
-/*FOTOS: PICS*/
-.momento{
-    height: 330px;}
-
-.pics{
-    height: 1230px ;  }
-
-/*EVENTOS*/
-
+/*EVENTOS TITULO - AMARELO - TELA MÉDIA*/
 .eventos{
     height: 500px;}
 
+/*EVENTOS TABELA - VERDE - TELA MÉDIA*/
 .tabela{
-    height: 10800px;  }
+    height: 9600px;  }
 
 .rTable tbody td:nth-child(2){
     padding-left: 10px;
@@ -116,9 +114,20 @@ h1:after{
 .rTable tbody td:nth-child(1){
     font-size: 15px;  }
 
+/*FOTOS TITULO - AMARELO - TELA MÉDIA*/
+.momento{
+    height: 330px;}
+
+/*FOTOS PICS - VERDE - TELA MÉDIA*/
+.pics{
+    height: 1230px ;  }
+
+
+
 }
 /*------------------Estilo para TELA PEQUENA----------------------------*/
 @media only screen and (max-width: 767px) {
+
 /*INDEX: HEADER*/
 .header{
     position: relative;
@@ -153,7 +162,7 @@ h1:after{
 .foto-introducao {
     margin-top: 0px;}
 
-/*INDEX: INTRODUÇÃO*/ 	 
+/*INDEX: TITULO INTRODUÇÃO - AMARELO - TELA PQ*/ 	 
 .introducao{
     height: 1360px;}
 
@@ -172,7 +181,7 @@ h1{
 .fotos2e3{
     margin: 40px 0 20px;}
 
-/*INDEX: INfORMAÇÃO*/ 
+/*INDEX: INfORMAÇÃO - VERDE - TELA PQ*/ 
 .informacoes{
     height: 1870px;} 
 
@@ -182,10 +191,10 @@ h1{
 .info{
     font-size: 18px;
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     text-align: center;   }
     
-.nina1ico, .nino1ico, .nino2ico, .nina2ico{
+.nina1ico, .nino1ico, .nino2ico{
     width: 70px;
     display: block;
     margin: 0 auto;}
@@ -193,14 +202,13 @@ h1{
 .nino1ico, .nina3ico, .nina4ico{
     display: none;}
 
-.info{
-    margin-bottom: 25px;}
-
 .nina2ico{
-    margin-top: 40px;
-    margin-bottom: -30px;}
+    display: block;
+    width: 70px;
+    margin: 40px auto -30px;   }
+   
 
-/*INDEX: FOOTER*/ 
+/*INDEX: FOOTER - AMARELO - TELA PQ*/ 
 .footer{
     height: 375px;   }
 
@@ -217,12 +225,12 @@ h1{
 .turma{
     padding: 0 30px 0 30px;}
 
-/*FOTOS: FOTO INICIO*/ 
-.foto-01 {
-    margin-top: 0px;} 
-
+/*FOTOS TITULO: AMARELO TELA PQ*/ 
 .momento{
     height: 350px;}
+
+.foto-01 {
+    margin-top: 0px;}     
 
 .titulo-momento{
     margin: 0px auto 10px;}
@@ -233,6 +241,7 @@ h1{
 .quote-foto p{
     font-size: 20px;   }
 
+/*FOTOS PICS: VERDE TELA PQ*/    
 .pics{
     height: 1910px ;  }
 
@@ -242,13 +251,14 @@ h1{
 .pic-foto .ultima{
     margin-bottom: 60px;}
 
-/*EVENTOS*/ 
-.evento-01 {
-    margin-top: 0px;}
-
+/*EVENTOS TITULO AMARELO - TELA PQ*/ 
 .eventos{   
     height: 520px;}
 
+.evento-01 {
+    margin-top: 0px;}
+
+/*EVENTOS TABELA VERDE - TELA PQ*/ 
 .tabela{
     height: 23200px;  }
 
