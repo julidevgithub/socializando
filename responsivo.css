@@ -12,8 +12,17 @@ h1{
 .informacoes{
     height: 3800px;} 
 
-.groupico{
-    display: block;}
+.turma{
+    display: block;
+    font-size: 23px;}
+
+.amigos p{
+    font-size: 23px; }
+
+
+}
+
+
 
 /*INDEX: FOOTER*/
 .footer{
@@ -24,7 +33,7 @@ h1{
 
 /*EVENTOS*/
 .tabela{
-    height: 10000px;
+    height: 11000px;
     display: block;  }
 
 
@@ -50,7 +59,7 @@ h1:after{
 
 /*INDEX: INFORMAÇÕES*/
 .informacoes{
-    height: 1760px;} 
+    height: 1460px;} 
 
 .nina3ico,.nina4ico{
     width: 30px;}
@@ -96,7 +105,7 @@ h1:after{
 
 /*EVENTOS*/
 .tabela{
-    height: 12000px;  }
+    height: 11500px;  }
 
 
 }
