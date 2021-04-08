@@ -102,8 +102,12 @@ h1:after{
     height: 1230px ;  }
 
 /*EVENTOS*/
+
+.eventos{
+    height: 500px;}
+
 .tabela{
-    height: 11000px;  }
+    height: 10800px;  }
 
 .rTable tbody td:nth-child(2){
     padding-left: 10px;
@@ -246,7 +250,7 @@ h1{
     height: 520px;}
 
 .tabela{
-    height: 23000px;  }
+    height: 23200px;  }
 
 .rTable thead{
     display:none;}
