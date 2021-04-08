@@ -10,7 +10,8 @@ h1{
 
 /*INDEX: INFORMAÇÕES*/
 .informacoes{
-    height: 3800px;} 
+    height: 3800px;
+    display: block;} 
 
 .turma{
     display: block;
@@ -18,11 +19,6 @@ h1{
 
 .amigos p{
     font-size: 23px; }
-
-
-}
-
-
 
 /*INDEX: FOOTER*/
 .footer{
@@ -44,7 +40,7 @@ h1{
 
 /*INDEX: INTRODUÇÃO*/
 .introducao{
-    height: 920px;}
+    height: 1000px;}
 
 h1{
     font-size: 35px;
@@ -59,7 +55,7 @@ h1:after{
 
 /*INDEX: INFORMAÇÕES*/
 .informacoes{
-    height: 1460px;} 
+    height: 1900px;} 
 
 .nina3ico,.nina4ico{
     width: 30px;}
@@ -97,7 +93,6 @@ h1:after{
 
 /*FOTOS: PICS*/
 .momento{
-
     height: 330px;}
 
 .pics{
@@ -105,7 +100,7 @@ h1:after{
 
 /*EVENTOS*/
 .tabela{
-    height: 11500px;  }
+    height: 12000px;  }
 
 
 }
@@ -166,7 +161,7 @@ h1{
 
 /*INDEX: INfORMAÇÃO*/ 
 .informacoes{
-    height: 1860px;} 
+    height: 2000px;} 
 
 .logo-grande{
     height: 280px;}
@@ -238,10 +233,16 @@ h1{
 .evento-01 {
     margin-top: 0px;}
 
-.tabela{
-    height: 21000px;  }
+    .eventos{
+     
+        height: 500px;}
 
-.rTable thead{display:none;}
+
+.tabela{
+    height: 22000px;  }
+
+.rTable thead{
+    display:none;}
 
 .rTable tbody td{
     display:block; 
@@ -254,6 +255,7 @@ h1{
 .titulo-evento:after{
     width: 200px;  }
 
-   
+.texto-evento p{
+    font-size: 18px;}
   
 }
