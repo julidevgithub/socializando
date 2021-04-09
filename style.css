@@ -6,7 +6,10 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 
 .menu .menu-ativo{
-    color: #373125;
+    color: #373125;}
+
+.verde{color: #373125;
+    font-weight: bolder;
 }
 
 /*HEADER*/
