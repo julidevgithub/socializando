@@ -85,7 +85,7 @@ font-weight: bolder;}
 .introducao{
     background-color: #F6AB45;
     width: 100%;
-    height: 900px;}
+    height: 100%px;}
 
 h1{
     color: #373125;
@@ -111,7 +111,7 @@ h1:after{
     line-height: 30px;}
 
 .final{
-    margin-bottom: 40px;}
+    margin-bottom: 50px;}
 
 .fotos2e3{
     margin: 40px 0 40px;}
@@ -120,7 +120,7 @@ h1:after{
 .informacoes{
     background-color: #4B8E85;
     width: 100%;
-    height: 1550px;}
+    height: 100%;}
 
 .logo-grande{
     height: 350px;
@@ -164,11 +164,6 @@ h1:after{
 .turma img{  /*para pegar o item, as vezes, tem q especicicar +++*/ 
 margin: 10px auto 0px;}
 
-.turma{
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 50px 0 50px;}
-
 span{
     color:#F6AB45;}
 
@@ -184,7 +179,7 @@ span{
 .footer{
     background-color: #F6AB45;
     width: 100%;
-    height: 160px;}
+    height: 100%;}
 
 .objetivo h3, .redes h3, .contato h3 {
     font-size: 20px;
@@ -217,6 +212,9 @@ span{
     
 .objetivo p, .contato p {
     text-align: center;}
+
+.objetivo p{
+    margin-bottom: 30px;}
 
 /*COPYRIGHT*/ 
 .copyright{

@@ -1,30 +1,19 @@
 /*------------------Estilo para TELA GRANDE----------------------------*/
 @media only screen and (min-width: 992px) and (max-width: 1200px){
 
-/*INDEX: INTRODUÇÃO - AMARELO -  TELA GRANDE*/
-.introducao{
-    height: 870px;}
-
+/*INDEX: INTRODUÇÃO  TELA GRANDE*/
 h1{
     margin-top: 40px;}
 
 /*INDEX: INFORMAÇÕES - VERDE - TELA GRANDE*/
-.informacoes{
-    height: 1600px;
-    display: block;} 
-
 .turma{
-    display: block;
-    position: absolute;
-    font-size: 23px;}
+    font-size: 25px;}
 
 .amigos p{
-    font-size: 23px; }
+    font-size: 25px; }
 
 /*INDEX: FOOTER - AMARELO -  TELA GRANDE*/
 .footer{
-    height: 160px;
-    display: block;
     font-size: 15px;}
 
 .insta-ico{
@@ -46,10 +35,7 @@ h1{
 /*------------------Estilo para TELA MÉDIA----------------------------*/
 @media only screen and (min-width: 768px) and (max-width: 991px){
 
-/*INDEX: INTRODUÇÃO - AMARELO - TELA MÉDIA*/
-.introducao{
-    height: 960px;}
-
+/*INDEX: INTRODUÇÃO - TELA MÉDIA*/
 h1{
     font-size: 35px;
     margin-top: 40px;}
@@ -62,14 +48,17 @@ h1:after{
     font-size: 20px; }
 
 /*INDEX: INFORMAÇÕES - VERDE - TELA MÉDIA*/
-.informacoes{
-    height: 1630px;} 
+.info{
+    margin-bottom: 50px;}
 
 .logo-grande{
     height: 300px;}
 
 .amigos p{
     font-size: 20px; }
+
+.turma p{
+    font-size: 20px;}    
 
 .nina1{
     margin-bottom: 90px;}      
@@ -80,16 +69,7 @@ h1:after{
 .groupico{
     width: 120px;}
 
-.turma p{
-    font-size: 20px;}
-
-.info{
-    margin-bottom: 60px;}
-
 /*INDEX: FOOTER - AMARELO - TELA MÉDIA*/
-.footer{
-   height: 200px;}
-
 .objetivo h3, .redes h3, .contato h3 {
     font-size: 19px; }
 
@@ -165,8 +145,6 @@ h1:after{
     margin-top: 0px;}
 
 /*INDEX: TITULO INTRODUÇÃO - AMARELO - TELA PQ*/ 	 
-.introducao{
-    height: 1360px;}
 
 h1{
     font-size: 25px;
@@ -184,16 +162,13 @@ h1{
     margin: 40px 0 20px;}
 
 /*INDEX: INfORMAÇÃO - VERDE - TELA PQ*/ 
-.informacoes{
-    height: 1870px;} 
-
 .logo-grande{
     height: 280px;}
 
 .info{
     font-size: 18px;
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     text-align: center;   }
     
 .nina1ico, .nino1ico, .nino2ico{
@@ -207,13 +182,17 @@ h1{
 .nina2ico{
     display: block;
     width: 70px;
-    margin: 40px auto -30px;   }
+    margin: 40px auto -30px; }
+
+.nina1 p{
+    margin-bottom: 50px; }
+
+.turma p{
+    margin-bottom: 50px; }
    
 
 /*INDEX: FOOTER - AMARELO - TELA PQ*/ 
-.footer{
-    height: 375px;   }
-
+ 
 .objetivo h3, .redes h3, .contato h3 {
     font-size: 18px; 
     margin-top: 35px;  }
@@ -226,6 +205,10 @@ h1{
 
 .turma{
     padding: 0 30px 0 30px;}
+
+    .contato p{
+        margin-bottom: 40px;
+    }
 
 /*FOTOS TITULO: AMARELO TELA PQ*/ 
 .momento{
