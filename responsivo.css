@@ -19,10 +19,6 @@ h1{
 .insta-ico{
     margin-left: 95px; }   
 
-/*FOTOS/PICS  - VERDE -  TELA GRANDE*/
-.pics{
-    height: 1500px ;  }
-
 
 
 }
@@ -75,7 +71,6 @@ h1:after{
     margin-left: 55px; }
 
 /*EVENTOS TABELA - VERDE - TELA MÉDIA*/
-
 .rTable tbody td:nth-child(2){
     padding-left: 10px;
     padding-right: 10px;  }
@@ -86,13 +81,9 @@ h1:after{
 .texto-evento p{
     font-size: 20px; }
 
-/*FOTOS TITULO - AMARELO - TELA MÉDIA*/
-.momento{
-    height: 330px;}
 
-/*FOTOS PICS - VERDE - TELA MÉDIA*/
-.pics{
-    height: 1230px ;  }
+
+
 
 
 }
@@ -134,7 +125,6 @@ h1:after{
     margin-top: 0px;}
 
 /*INDEX: TITULO INTRODUÇÃO - AMARELO - TELA PQ*/ 	 
-
 h1{
     font-size: 25px;
     padding-top: 40px; }
@@ -180,7 +170,6 @@ h1{
     margin-bottom: 50px; }
    
 /*INDEX: FOOTER - AMARELO - TELA PQ*/ 
- 
 .objetivo h3, .redes h3, .contato h3 {
     font-size: 18px; 
     margin-top: 35px;  }
@@ -198,9 +187,6 @@ h1{
     margin-bottom: 40px;}
 
 /*FOTOS TITULO: AMARELO TELA PQ*/ 
-.momento{
-    height: 350px;}
-
 .foto-01 {
     margin-top: 0px;}     
 
@@ -214,9 +200,6 @@ h1{
     font-size: 20px;   }
 
 /*FOTOS PICS: VERDE TELA PQ*/    
-.pics{
-    height: 1910px ;  }
-
 .pic-foto img{
     margin-bottom: 25px;}
 
