@@ -48,7 +48,7 @@ h1{
 
 /*INDEX: INTRODUÇÃO - AMARELO - TELA MÉDIA*/
 .introducao{
-    height: 940px;}
+    height: 960px;}
 
 h1{
     font-size: 35px;
@@ -101,11 +101,11 @@ h1:after{
 
 /*EVENTOS TITULO - AMARELO - TELA MÉDIA*/
 .eventos{
-    height: 500px;}
+    height: 520px;}
 
 /*EVENTOS TABELA - VERDE - TELA MÉDIA*/
 .tabela{
-    height: 9630px;  }
+    height: 1000px;  }
 
 .rTable tbody td:nth-child(2){
     padding-left: 10px;
@@ -265,7 +265,7 @@ h1{
 
 /*EVENTOS TABELA VERDE - TELA PQ*/ 
 .tabela{
-    height: 23200px; }
+    height: 23700px; }
 
 h2{
     font-size: 25px;}
