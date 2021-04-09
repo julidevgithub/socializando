@@ -17,12 +17,7 @@ h1{
     font-size: 15px;}
 
 .insta-ico{
-    margin-left: 95px; }
-
-/*EVENTOS  - VERDE -  TELA GRANDE*/
-.tabela{
-    height: 7460px;
-    display: block;      }
+    margin-left: 95px; }   
 
 /*FOTOS/PICS  - VERDE -  TELA GRANDE*/
 .pics{
@@ -79,13 +74,7 @@ h1:after{
 .insta-ico{
     margin-left: 55px; }
 
-/*EVENTOS TITULO - AMARELO - TELA MÉDIA*/
-.eventos{
-    height: 520px;}
-
 /*EVENTOS TABELA - VERDE - TELA MÉDIA*/
-.tabela{
-    height: 9600px; }
 
 .rTable tbody td:nth-child(2){
     padding-left: 10px;
@@ -190,7 +179,6 @@ h1{
 .turma p{
     margin-bottom: 50px; }
    
-
 /*INDEX: FOOTER - AMARELO - TELA PQ*/ 
  
 .objetivo h3, .redes h3, .contato h3 {
@@ -206,9 +194,8 @@ h1{
 .turma{
     padding: 0 30px 0 30px;}
 
-    .contato p{
-        margin-bottom: 40px;
-    }
+.contato p{
+    margin-bottom: 40px;}
 
 /*FOTOS TITULO: AMARELO TELA PQ*/ 
 .momento{
@@ -237,19 +224,16 @@ h1{
     margin-bottom: 60px;}
 
 /*EVENTOS TITULO AMARELO - TELA PQ*/ 
-.eventos{   
-    height: 870px;}
-
 .evento-01 {
     margin-top: 0px;}
 
 .cafe{
     margin: 0 auto 25px; }
 
-/*EVENTOS TABELA VERDE - TELA PQ*/ 
-.tabela{
-    height: 23700px; }
+.confirme{
+    margin-bottom: 50px;}
 
+/*EVENTOS TABELA VERDE - TELA PQ*/ 
 h2{
     font-size: 25px;}
 
