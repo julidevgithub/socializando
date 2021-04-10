@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="48" viewBox="0 0 80 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_32" data-name="Rectangle 32" width="80" height="48" fill="#f6ab45"/>
+    </clipPath>
+    <filter id="share" x="-9" y="-2.357" width="98" height="57.81" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="seta" clip-path="url(#clip-path)">
+    <g id="icons" transform="translate(0 3.643)">
+      <g transform="matrix(1, 0, 0, 1, 0, -3.64)" filter="url(#share)">
+        <path id="share-2" data-name="share" d="M88.7,35.437,62.325,20.48c-2-1.246-4.4,0-4.4,1.994v7.479c-18.783,0-34.768,7.229-42.361,16.951A29.985,29.985,0,0,0,9.973,57.125c-.8,2.493,5.2,3.739,7.593,1.5C26.358,49.9,41.144,44.162,57.929,44.162v8.226c0,1.994,2.4,3.241,4.4,1.994L88.7,39.425A2.258,2.258,0,0,0,88.7,35.437Z" transform="translate(-9.9 -16.34)" fill="#f6ab45"/>
+      </g>
+    </g>
+  </g>
+</svg>

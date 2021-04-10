@@ -1,0 +1,61 @@
+/*CONFIGURAÇÃO GERAL*/
+
+.cadastro-foto{
+    background: url(img/pic1.jpg) center no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 150px;
+    display: block;
+    margin-top: 115px;}
+
+.cadastro{
+    background-color: #F6AB45;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;}
+
+.titulo-cadastro:after{
+    width: 365px; }
+
+.texto-cadastro{
+    font-size: 25px; }
+
+.texto-cadastro img{
+    width: 45px;}
+
+.texto-cadastro p{
+    margin-bottom: 30px;}
+
+
+/*AREA VERDE*/
+.verde-cadastro{
+    background-color:#4B8E85 ;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px; }
+
+h2{
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    color:#373125}
+
+h2:after{
+    content: "";
+    display: block;
+    width: 370px;
+    height: 3px;
+    background-color: #373125; 
+    margin: 8px auto 30px;}
+
+.cad-meetup p{
+    font-size: 25px;
+    color:#373125;
+    padding: 0 200px 40px;  }
+
+.cad-meetup img{
+    margin: 0 auto; }
+
+
+
+   
