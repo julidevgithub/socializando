@@ -40,6 +40,10 @@ h2{
     text-align: center;
     color:#373125}
 
+h2:hover{
+    color:#F6AB45 ;}
+
+
 h2:after{
     content: "";
     display: block;

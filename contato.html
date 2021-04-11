@@ -20,6 +20,7 @@
     <link type="text/css" rel="stylesheet" href= "reset.css">    
     <link type="text/css" rel="stylesheet" href= "grid.css">
     <link type="text/css" rel="stylesheet" href= "style.css">
+    <link type="text/css" rel="stylesheet" href= "style-contato.css">
     <link type="text/css" rel="stylesheet" href= "responsivo.css"><!--vir por ultimo-->
 
     <script>document.documentElement.classList.add("js");</script> <!--JAVASCRIPT-->
@@ -41,6 +42,103 @@
     </div>
 </header> 
 
-    
+<!--CONTATO FOTO 1-->
+<section class="contato-foto">
+</section>
+
+<section class="contato-inicio">
+    <div class="container inicio-contato">
+        <h1 class="grid-12 titulo-cadastro">CONTATO: SOCIALIZANDO EM SAMPA</h1> 
+
+       <div class="grid-6 texto-contato">
+            <ul>   
+                <li><b>Dados do Grupo (até abr/2021):</b></li>
+                <li><b>Grupo criado em:</b> 17/jun/2017</li>
+                <li><b>Meetups realizados:</b> 221</li>
+                <li><b>Membros cadastrados:</b> 8.219 membros</li><br>
+                <li><b>Organizadores/Admins.:</b></li>
+                <li>↬ Luiz H. H.</li>
+                <li>↣ José V. C.</li>
+                <li>↝ Jorge R. G.</li>
+                <li>⇝ Adriana C.</li> <br>
+                <li><b>E-mail:</b> socializando@gmail.com</li>   
+            </ul>
+        </div> 
+
+        <div class="grid-6">
+            <img src="img/logo-raw.jpg" alt="logo-grande" class="logo-grande">   
+        </div>
+    </div>
+
+    <div class="container">
+        <form method="post" action="receber-dados" class="grid-12 cad">
+
+            <div class="formulario" >
+                <div class="grid-6">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" placeholder="digite seu nome aqui">
+
+                <label for="email">E-mail:</label>
+                <input type="email" name="e-mail" placeholder="digite seu e-mail aqui">
+
+                <label for="telefone">Celular:</label>
+                <input type="tel" name="celular" placeholder="digite seu celular aqui">                
+                </div>
+
+                <div class="mensagem">
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="area-mensagem" id="texto-mensagem" cols="35" rows="8" placeholder="digite sua mensagem aqui"></textarea>
+                </div>
+
+                
+                <button type="submit" id="enviar" name="enviar">Enviar</button>
+                
+
+
+            </div> 
+
+        </form>
+
+    </div>
+
+</section>
+
+<!--CONTATO FOTO RODAPÉ-->
+<section class="contato-rodape">
+</section>
+
+<!--FOOTER-->
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="grid-4 objetivo" >    
+                <h3>Nosso Objetivo</h3>
+                <p>Criado com o intuito de reunir pessoas que tenham algum interesse em comum.
+                O principal objetivo é a realização de encontros sociais com pessoas que estejam próximas a você. </p>
+            </div>
+
+            <div class="grid-4 redes">
+                 <h3>Redes Sociais</h3>
+                 <ul>
+                    <li><a href="https://www.instagram.com/explore/tags/socializandoemsampa/" target="_blank"><img src="img/insta-ico.svg" alt="instagram" class="insta-ico"></a></li>
+                    <li><a href="https://www.meetup.com/pt-BR/SocializandoEmSampa/" target="_blank"><img src="img/meetup-ico.jpg" alt="meetup" class="meet-ico"></a></li> 
+                </ul>
+            </div>
+
+            <div class="grid-4 contato">
+                <h3>Contato</h3>
+                <p><b>E-mail:</b> socializando@gmail.com</p>
+            </div>
+        </div>
+   </div>    
+</footer>
+
+    <div class="copyright ">
+        <div>
+            <p class="grid-16">Copyright © 2021 JuliDev. All Rights Reserved.</p>
+        </div>
+    </div>   
+
+
 </body>
 </html>

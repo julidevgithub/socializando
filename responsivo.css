@@ -19,6 +19,10 @@ h1{
 .insta-ico{
     margin-left: 95px; }   
 
+/*CONTATO -  TELA GRANDE*/
+.cad{
+   margin-left: 60px;}
+
 
 
 }
@@ -90,6 +94,13 @@ h1:after{
     margin: 0 auto;}
 
 
+/*CONTATO -  TELA MÉDIA*/
+.cad{
+    margin-left: 20px;}
+
+.formulario input{
+    width: 300px; }
+    
 
 
 }
@@ -263,7 +274,6 @@ h2:after{
 .inicio-cadastro img{
     margin: 0 auto;}
 
-
 .inicio-cadastro p{
     text-align: center;
     font-size: 20px;}
@@ -273,5 +283,26 @@ h2:after{
     font-size: 20px; }
 
   
+/*CONTATO -  TELA PQ*/
+.contato-foto{
+    margin-top: 0px;}
+
+
+.texto-contato{
+    font-size: 20px;  }
+
+.cad{
+    margin-left: 0px;
+margin-top: -20px;}
+
+.formulario input{
+    width: 300px; }
+
+.formulario label{
+    font-size: 18px; }
+
+  
+
+
 
 }
