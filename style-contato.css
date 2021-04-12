@@ -14,10 +14,13 @@
     height: 100%;
     padding-bottom: 50px;}
 
+.amarelo{
+    font-weight: bolder;
+    color: #F6AB45;    }
+
 h1:hover{
     color:#F6AB45 ;}
     
-
 .texto-contato{
     font-size: 25px; 
     margin-top: 30px;}
@@ -32,7 +35,7 @@ h1:hover{
 .formulario input{
     display: block;
     width: 350px;
-    height: 35px; 
+    height: 37px; 
     border-radius: 15px; 
     border: 3px solid #373125; 
     background-color:#F6AB45 ;
