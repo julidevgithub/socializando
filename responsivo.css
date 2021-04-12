@@ -91,10 +91,10 @@ h1:after{
     margin-left: 20px;}
 
 .formulario input{
-    width: 320px; }
+    width: 300px; }
     
 #texto-mensagem{
-    width: 320px;}
+    width: 300px;}
 
 
 }
@@ -289,13 +289,13 @@ h2:after{
 margin-top: -20px;}
 
 .formulario input{
-    width: 320px; }
+    width: 300px; }
 
 .formulario label{
     font-size: 18px; }
     
 #texto-mensagem{
-    width: 320px;}
+    width: 300px;}
 
 
 }
