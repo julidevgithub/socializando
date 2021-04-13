@@ -199,14 +199,11 @@ span{
 
 .meet-ico{
     width: 70px;
-    display: block;
-    margin-left: 5px; }
+    margin-left: 15px; }
 
 .insta-ico{
     width: 45px;
-    display: block;
-    margin-left: 120px; 
-    padding-top: -220px; }
+    margin-left: 120px; }
 
 .redes ul li{
     display: inline-block ;}
