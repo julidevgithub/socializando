@@ -273,6 +273,9 @@ h2:after{
 .inicio-cadastro img{
     margin: 0 auto;}
 
+.cad-meetup a{
+    margin-left: 0px;}
+
 .inicio-cadastro p{
     text-align: center;
     font-size: 20px;}
@@ -280,9 +283,6 @@ h2:after{
 .cad-meetup p{
     padding: 0 0px 30px;
     font-size: 20px; }
-
-.cad-meetup a{
-    margin-left: 0px;}
   
 /*CONTATO -  TELA PQ*/
 .contato-foto{
