@@ -19,11 +19,13 @@ h1{
 .insta-ico{
     margin-left: 95px; }   
 
+/*CADASTRO -  TELA GRANDE*/   
+.cad-meetup a{
+margin-left: 350px;}
+
 /*CONTATO -  TELA GRANDE*/
 .cad{
    margin-left: 60px;}
-
-
 
 }
 
@@ -84,6 +86,9 @@ h1:after{
 /*CADASTRO - AMARELO - TELA MÉDIA*/
 .texto-cadastro img{
     margin: 0 auto;}
+
+.cad-meetup a{
+    margin-left: 290px;}
 
 
 /*CONTATO -  TELA MÉDIA*/

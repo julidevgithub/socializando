@@ -58,8 +58,10 @@ h2:after{
 
 .cad-meetup img{
     margin: 0 auto;
-    width: 200px }
+    width: 200px;}
 
-
+.cad-meetup a{
+    margin-left: 440px;}
+   
 
    
