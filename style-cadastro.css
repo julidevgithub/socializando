@@ -43,7 +43,6 @@ h2{
 h2:hover{
     color:#F6AB45 ;}
 
-
 h2:after{
     content: "";
     display: block;
@@ -58,7 +57,8 @@ h2:after{
     padding: 0 200px 40px;  }
 
 .cad-meetup img{
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 200px }
 
 
 
